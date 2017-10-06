@@ -1,13 +1,13 @@
 #!/bin/bash
-echo "# github_test_04" >> README.md
-echo "# github_test_04 10-05-2017 #1" >> testfile_01.txt
-echo "# github_test_04 10-05-2017 #1" >> testfile_02.txt
-echo "# github_test_04 10-05-2017 #1" >> testfile_03.txt
-git init
+#echo "# github_test_04" >> README.md
+#echo "# github_test_04 10-05-2017 #1" >> testfile_01.txt
+#echo "# github_test_04 10-05-2017 #1" >> testfile_02.txt
+#echo "# github_test_04 10-05-2017 #1" >> testfile_03.txt
+#git init
 #git add README.md
 git add -A
 git status
-git commit -m "first commit"
+git commit -m "commit 10-06-2017 #1"
 git status
 # git remote add origin https://github.com/RayBowman2017b/github_demo_03.git
 # git remote add origin git@github.com:RayBowman2017b/github_demo_03.git
