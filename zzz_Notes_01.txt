@@ -1,0 +1,29 @@
+
+
+https://github.com/blog/2104-working-with-submodules
+
+echo "  git log"
+git log
+
+======================================================
+
+These examples assume you're cloning using HTTPS, which is recommended.
+
+git remote -v
+# View current remotes
+origin  https://github.com/OWNER/REPOSITORY.git (fetch)
+origin  https://github.com/OWNER/REPOSITORY.git (push)
+destination  https://github.com/FORKER/REPOSITORY.git (fetch)
+destination  https://github.com/FORKER/REPOSITORY.git (push)
+
+git remote rm destination
+# Remove remote
+git remote -v
+# Verify it's gone
+origin  https://github.com/OWNER/REPOSITORY.git (fetch)
+origin  https://github.com/OWNER/REPOSITORY.git (push)
+======================================================
+
+https://help.github.com/articles/removing-a-remote/
+
+======================================================
